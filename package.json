@@ -1,0 +1,18 @@
+{
+  "name": "get-post-checker",
+  "version": "1.0.0",
+  "description": "A simple Node app to parse the content of a GET or POST request and display the request content to the user",
+  "main": "index.js",
+  "repository": "git@github.com:jordan-hamilton/290-Assignment-5.git",
+  "author": "Jordan Hamilton <jordan-hamilton@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
