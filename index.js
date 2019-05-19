@@ -20,7 +20,7 @@ app.set('port', 3000);
 // Create a context, accepting either the query on a GET request or the body on
 // a POST request, along with the method of the request.
 // We create an array in the context and add all the data from the request to it,
-// and set the method of the request and return the context.
+// set the method of the request and return the context.
 function makeContext(data, method) {
   var context = {};
   context.data = [];
