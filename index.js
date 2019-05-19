@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.set('port', 3000);
+app.set('port', process.argv[2] || 3000);
 
 /* Create a context, accepting either the query on a GET request or the body on
  * a POST request, along with the method of the request.
