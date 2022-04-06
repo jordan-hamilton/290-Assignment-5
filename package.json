@@ -10,7 +10,7 @@
   "dependencies": {
     "body-parser": "1.19.2",
     "express": "4.17.3",
-    "express-handlebars": "6.0.2",
+    "express-handlebars": "6.0.4",
     "forever": "4.0.3"
   },
   "scripts": {
